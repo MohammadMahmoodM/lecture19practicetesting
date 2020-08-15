@@ -9,7 +9,7 @@ deploy:
   provider: surge
   skip_cleanup: true
   domain: mahmood-testing.surge.sh
-  project: ./bui
+  project: ./build/
 
 on:
   branch: master
